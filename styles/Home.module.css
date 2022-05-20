@@ -46,14 +46,51 @@
 }
 
 .title,
-.description {
+.description,
+.sub_description {
   text-align: center;
 }
 
 .description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+  margin: 1rem 0;
+  line-height: 1.25;
+  font-size: 1.25rem;
+}
+
+.sub_description {
+  margin-bottom: 4rem;
+  line-height: 1.25;
+  font-size: 1rem;
+  color: #666;
+  width: 65%;
+}
+
+.phone_input {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: #f1fcf5;
+  border: 2px solid #7cc596;
+  border-radius: 6px;
+  width: 35%;
+  height: 55px;
+  font-size: 1rem;
+}
+
+.phone_input:focus, .phone_input:active, .phone_input:focus-visible {
+  background-color: #f8fffa;
+  border: 2px solid #4aac6d;
+  outline: none;
+}
+
+.chat_btn {
+  margin-top: 2rem;
+  background: #25D366;
+  color: #fff;
+  width: 35%;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 6px;
+  border: 2px solid #0e9f44;
 }
 
 .code {
