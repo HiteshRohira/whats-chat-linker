@@ -40,9 +40,10 @@
 }
 
 .title {
-  margin: 0;
+  margin-bottom: 1.5rem;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3rem;
+  text-decoration: underline solid #25D366;
 }
 
 .title,
@@ -69,16 +70,19 @@
   padding: 1rem;
   margin: 1rem;
   background-color: #f1fcf5;
-  border: 2px solid #7cc596;
+  border: 0px;
+  border-bottom: 2px solid #7cc596;
   border-radius: 6px;
   width: 35%;
   height: 55px;
   font-size: 1rem;
+  box-shadow: 4px 4px 12px 1px rgb(0 0 0 / 10%);
 }
 
 .phone_input:focus, .phone_input:active, .phone_input:focus-visible {
   background-color: #f8fffa;
-  border: 2px solid #4aac6d;
+  /* border: 0; */
+  border-bottom: 2px solid #4aac6d;
   outline: none;
 }
 
@@ -91,6 +95,7 @@
   text-align: center;
   border-radius: 6px;
   border: 2px solid #0e9f44;
+  box-shadow: 4px 4px 12px 1px rgb(0 0 0 / 20%);
 }
 
 .code {
