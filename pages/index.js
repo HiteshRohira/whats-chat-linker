@@ -20,7 +20,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Enter the phone number you want to chat with on Whatsapp
+          Enter the phone number you want to chat with on WhatsApp
         </p>
 
         <p className={styles.sub_description}>
